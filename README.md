@@ -6,7 +6,7 @@ With this plugin a book can contain jsdoc from a specified Javascript file.
 
 To use the jsdoc plugin in your Gitbook project, add the jsdoc plugin to the book.json file, then install plugins using gitbook install.
 
-```
+```json
 {
     "plugins": ["jsdoc"]
 }
@@ -14,6 +14,6 @@ To use the jsdoc plugin in your Gitbook project, add the jsdoc plugin to the boo
 
 ## jsdoc format
 
-```
+```html
 {{ "/absolute/path/to/js/file.js" | jsdoc }}
 ```

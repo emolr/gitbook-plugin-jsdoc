@@ -1,11 +1,15 @@
 {
     "name": "gitbook-plugin-jsdoc",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "A jsdoc filter to inject jsdoc in gitbook.",
     "author": { 
         "name" : "Emil Rune Møller", 
         "url" : "https://github.com/emolr"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/emolr/gitbook-plugin-jsdoc"
+      },
     "engines": {
         "gitbook": ">1.x.x"
     },
