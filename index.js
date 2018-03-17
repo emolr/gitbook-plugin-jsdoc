@@ -21,11 +21,8 @@ module.exports = {
 
         const docs = jsdoc2md.renderSync(options);
 
-        return `
-            <div class="gitbook-plugin-jsdoc">
-                ${docs}
-            </div>
-        `;
+        return docs;
+        
       } catch (err) {
         console.error(err);
       }
