@@ -14,6 +14,8 @@ To use the jsdoc plugin in your Gitbook project, add the jsdoc plugin to the boo
 
 ## jsdoc format
 
+To inject a full jsdoc documentation to a page, add this snippet in the markdown file.
+
 ```html
 {{ "/absolute/path/to/js/file.js" | jsdoc }}
 ```
