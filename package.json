@@ -1,0 +1,24 @@
+{
+    "name": "gitbook-plugin-jsdoc",
+    "version": "0.0.1",
+    "description": "A jsdoc filter to inject jsdoc in gitbook.",
+    "author": { 
+        "name" : "Emil Rune Møller", 
+        "url" : "https://github.com/emolr"
+    },
+    "engines": {
+        "gitbook": ">1.x.x"
+    },
+    "gitbook": {
+        "properties": {
+            "options": {
+                "type": "object",
+                "default": "{}",
+                "description": "Options to pass on to jsdoc-to-markdown. See https://github.com/jsdoc2md/jsdoc-to-markdown/blob/master/docs/API.md for available options."
+            }
+        }
+    },
+    "dependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
+}
